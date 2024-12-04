@@ -1,0 +1,117 @@
+import
+{
+_3
+,
+_5
+,
+_6
+,
+_7
+,
+_8
+,
+_12
+,
+_13
+,
+_14
+,
+_18
+,
+_21
+,
+_24
+,
+_36
+,
+_42
+,
+_44
+,
+_45
+,
+_38
+,
+_41
+,
+_46
+,
+_47
+,
+_48
+,
+_57
+}
+from
+'i9503031124034-1'
+/*
+_7
+(
+`
+DROP TABLE _1;
+`
+)
+*/
+_7
+(
+`
+CREATE TABLE _1 (_1 INTEGER PRIMARY KEY NOT NULL)
+`
+)
+/*
+_7
+(
+`
+ALTER TABLE _1 ADD COLUMN _2 INTEGER
+`
+)
+*/
+/*
+_7
+(
+`
+ALTER TABLE _1 DROP COLUMN _3 INTEGER
+`
+)
+*/
+var
+__1
+=
+_12
+(
+`
+PRAGMA TABLE_INFO(_)
+`
+)
+,
+__2
+=
+_12
+(
+`
+SELECT * FROM sqlite_schema WHERE type='table' AND name NOT LIKE 'sqlite_%'
+`
+)
+export
+default
+(
+) =>
+_45
+(
+{
+}
+,
+_21
+(
+)
+,
+_47
+(
+{
+}
+,
+// _48
+// (
+// )
+)
+)
